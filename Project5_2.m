@@ -43,7 +43,7 @@ clear;clc;
     ylabel("X1");
     % Graph theoretical PDF
     subplot(2,1,2)
-    plot(linspace(0,3,4),X1TP);
+    plot(xu1,X1TP);
     ylim([0 1]);
     title("Theoretical PDF for X1");
     xlabel("x");
@@ -61,7 +61,7 @@ clear;clc;
     ylabel("X2");
     % Graph theoretical PDF
     subplot(2,1,2)
-    plot(linspace(0,5,6),X2TP);
+    plot(xu2,X2TP);
     ylim([0 1]);
     title("Theoretical PDF for X2");
     xlabel("x");
